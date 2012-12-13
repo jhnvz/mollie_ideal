@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<response>
+	<item type="error">
+		<errorcode>-3</errorcode>
+		<message>A fetch was issued without (proper) specification of 'reporturl'</message>
+	</item>
+</response>

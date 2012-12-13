@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<response>
+	<item type="error">
+		<errorcode>-10</errorcode>
+		<message>This is an unknown order.</message>
+	</item>
+</response>
