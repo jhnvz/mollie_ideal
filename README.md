@@ -18,7 +18,7 @@ client = MollieIdeal::Client.new(:testmode => true, :partner_id => your_partner_
 
 # Example of how to get the banklist and populate a selectbox
 @banks = client.banklist
-= select_tag :issuerid, options_for_select(@banks)
+= select_tag :bank_id, options_for_select(@banks)
 
 # How to setup a payment
 response = client.setup_payment(
